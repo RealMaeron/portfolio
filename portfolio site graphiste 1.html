@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio de Graphiste</title>
+    <style>
+        /* ===== Style global ===== */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f0f0f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #4a90e2;
+        }
+
+        /* ===== Galerie ===== */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Maeron, jeune graphiste</h1>
+        <p>Bienvenue dans mon monde créatif ! 🎨</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="portfolio">
+        <h2>Mes Créations</h2>
+        <div class="gallery">
+            <img src="../OneDrive/POUR LES VIDÉOS/Miniatures/Je réagis aux clips des youtubers.png" alt="Dessin 1">
+            <img src="../OneDrive/POUR LES VIDÉOS/Miniatures/Steal a brainrot a tué fortnite.png" alt="Dessin 2">
+            <img src="../OneDrive/POUR LES VIDÉOS/Miniatures/Je RÉPONDS enfin à vos questions ! (FAQ NOVEMBRE 2025).png" alt="Dessin 3">
+            <img src="../OneDrive/POUR LES VIDÉOS/Miniatures/Faut qu'je vous parle.png" alt="Dessin 4">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Salut ! Je m'appelle Maeron, j'ai 11 ans et je suis un jeune graphiste passionné. J'adore créer des illustrations, des logos et des designs originaux. Mon objectif est de partager mon univers et de progresser chaque jour !</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Tu peux me contacter par email : <a href="mailto:monemail@example.com">maeronproyt@outlook.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Maeron - Tous droits réservés
+    </footer>
+
+</body>
+</html>
+
